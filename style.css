@@ -1,0 +1,391 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #1d3444;
+    margin: 0;
+}
+.container { 
+    max-width: 1280px;
+    margin: auto;}  
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 40px;
+}
+.col-3{
+    width: calc(100%/3 - 40px);
+   flex-grow: 1;
+}
+.col-2{
+    width: calc(100%/2 - 40px);
+    flex: 1 400px;
+}
+.col-4{
+    width: 45%;
+    display: inline-block;    
+}
+section{
+    padding: 6rem 0;
+    width: 100%;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1rem;
+}
+h1, h2, h3, h4{
+    line-height: 95%;
+}
+.mnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+}
+.navitems{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.navitems li{
+    padding: 0 1rem;
+}
+.cta{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ebd4c7;
+    color: #f58a07;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;   
+}
+.hero-section{
+    background-color: #dceaf5;}
+
+.hero-container{
+    display: flex;
+}   
+.sos{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: coral;
+    color: white;
+}    
+.img-fluid{
+    max-width: 100%;
+    border-radius: 20px;
+}
+.hero-title{
+    margin: 10% 0;
+}
+.hero-buttons{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.partners img{
+    padding: 0 10px;
+    margin-top: 0;  
+}
+.hero-img img{
+    margin-bottom: -4px;
+}
+.service img{
+    border-radius: 10px;
+}  
+.button{
+    color: #f58a07;
+    padding-bottom: 15px;
+} 
+.button::after{
+    content: '\2192';
+}
+.service-title{
+    width: 40%;
+}
+.software .col-3{
+    padding: 0 1.5rem 0 0; 
+}
+.software-section{
+    background-color: #dceaf5;
+}
+.software-content div{
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.software-title :last-child{
+    padding: 20px;
+}
+.help .navitems li{
+    border: 1px solid #1d3444;
+    border-radius: 10px; 
+    padding-top: 30px; 
+}
+.helpnav{
+    padding-left: 0;
+}
+.helpnav li:hover{
+    color: #f58a07;
+    background-color: white;
+    border: 1px solid transparent;
+}
+.ribbon{
+    position: absolute;
+    left: 1118px;
+    top: -3%;
+}
+.blue-background{
+    width: 100%;
+    background-color: #dceaf5;
+    position: relative;
+    border-radius: 10px;
+    padding: 48px;
+}
+.team-img{
+    margin-left: 100px;
+}
+.helpnav li{
+    list-style: none;
+    border: 1px solid #A8BCCC;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 20px;   
+}
+.experimg{
+    background-size: cover;
+}
+.job-content h2{
+    color: white;
+ 
+}
+.job-img{
+    background-image: url(../images/experience-image.png);
+    width: 100%;
+    height: 518px;
+    background-size: cover;
+}
+#job .row{
+    align-items: center;
+    background-color: #f58a07;
+} 
+.job-title{
+    color: white;
+    margin-top: 0;
+    width: 532px;
+}
+#job .col-2{
+    padding: 60px;
+}
+.job-button{
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: white;
+    color: #f58a07;
+}
+.chikelu img{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+}
+.finsdream{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ceo{
+    margin-left: 50px;
+}
+
+.maze{
+    color: #f58a07;
+}
+.news section{
+    background-color: #dceaf5;
+}
+.col-4 h2{
+    color: #f58a07;
+}
+.news{
+    background-color: #dceaf5;
+}
+.news .vision{
+    background-color: white;
+    border-radius: 30px;
+} 
+.news .vision img{
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.news .vision h3{
+    margin-top: 0;
+}
+.news .vision img{
+    max-width: 100%;
+}
+.blog{
+    padding: 30px;
+}
+.news .row :first-child a{
+    padding-left: 30px;
+}
+footer{
+    background-color: #063255;
+    color: white;
+}
+.logo i{
+    padding: 10px;
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe{
+    background-color: #f58a07;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    color: white;
+    width: 8rem;
+}
+.email{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    color: #5b5b5b;
+}
+/* page-2 css */
+.ipg-two{
+    padding: 50px;
+}
+.two-img{
+    height: 500px;
+    border-radius: 20px;
+    width: 100%;
+    filter: grayscale(1);   
+}
+.tpg-two{
+    padding: 60px 30px 0 0;
+}
+.developer{
+    border: none;
+    background-color: #dceaf5;
+    margin: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.anow{
+    color: #f58a07;
+}
+.row-developer{
+    width: 66.67%;
+    display: flex;
+}
+.chikelu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.process img{
+    height: 60vh;
+}
+.protitle{
+    margin: 10px;
+}
+#process{
+    background-color: #dceaf5;
+}
+.post div{
+    background-color: #dceaf5;
+    border-radius: 20px;
+}
+.post img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.post h3{
+    margin-top: 0;
+}
+.post{
+    padding-bottom: 30px;
+}
+.post :first-child a{
+    padding-left: 30px;
+}
+.plugin{
+    padding: 5% 20% 0 20%;
+}
+.details{
+    background-color: #dceaf5;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+}
+.require{
+    padding: 2rem 0 2rem 3rem;
+}
+.require h4:hover{
+    color: #f58a07;
+    border: 1px solid transparent;
+}
+.apply .row div, .ether, .question div{
+    color: #747272;
+    margin: 20px 30px 0 0px;
+    background-color: #f3f2f2;
+    border-radius: 20px;
+    padding: 10px;
+}
+.apply .row .col-2{
+    padding-left: 30px;
+}
+.ether{
+    max-width: 100%;
+    height: 20vh;    
+}
+.submit{
+    padding: 30px;
+    border-radius: 40px;
+    background-color: coral;
+    color: white;
+    margin-top: 3rem;
+    width: 10rem;
+    text-align: center;
+    font-size: larger;
+}
+.map{
+    height: 40vh;
+    width: 35vw;
+    filter: grayscale(1);
+    padding: 10px 0 0 40px;
+}
+.location .row{
+    padding-left: 40px;
+    padding-top: 10px;
+}
